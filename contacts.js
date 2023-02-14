@@ -1,4 +1,4 @@
-class Contacts{
+export class Contacts{
 
     constructor(){
         this.array =[]

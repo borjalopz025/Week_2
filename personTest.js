@@ -1,5 +1,4 @@
-
-let myLib = require("./poo")
+import { Person } from "./poo";
 
 let juan = new Person(1.85 , 75)
 console.log(juan.calcularImc());
@@ -12,4 +11,4 @@ juan.peso=80
 juan.printAll()
 juan.leerHobbie()
 
-console.log(juan)
+
