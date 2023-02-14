@@ -28,3 +28,24 @@ class Person{
     }
   }
 }
+
+
+// class Contacts{
+
+//     constructor(){
+//         this.array =[]
+
+//     }
+
+//     printPerson(){
+//        for(let ojb in juan)
+//        {
+//         this.array.push(ojb)
+//        }console.log(this.array);
+//     }
+// }
+
+// let todo = new Contacts
+// todo.printPers()
+
+module.exports = {Person}

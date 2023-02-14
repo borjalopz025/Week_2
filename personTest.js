@@ -1,3 +1,6 @@
+
+let myLib = require("./poo")
+
 let juan = new Person(1.85 , 75)
 console.log(juan.calcularImc());
 juan.yearOfBirth = 1990
@@ -8,3 +11,5 @@ juan.edad = 33
 juan.peso=80
 juan.printAll()
 juan.leerHobbie()
+
+console.log(juan)
